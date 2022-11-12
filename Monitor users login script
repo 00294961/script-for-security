@@ -1,0 +1,13 @@
+#!/bin/bash
+
+
+#The arp command allows  you to see any ip addresses trying to connect to the s>
+arp -a
+
+echo "-------------------------------------------------------------"
+
+#This part allows you to input a username  and in return it shows the users log>
+echo "Enter UserName : "
+
+read user
+last $user
